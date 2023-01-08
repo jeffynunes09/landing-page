@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    
+
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.logo{
+    height: 72px;
+}
+
+.navbar{
+    display: flex;
+    gap:32px;
+}
+.link-navbar{
+    color: #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container-pricipal{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.container-pricipal-1{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+.subtitle{
+
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.botton{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    color: #2F2325;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 20px;
+
+
+
+}
+
+.botton:hover{
+    background-color: rgba(236,214,196,0.53);
+}
+
+.container-principal-2{
+display: flex;
+margin-top: 48px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+
+
+}
+
+.title-2{
+border-top: 0.4px solid #FFF2E7;
+padding-top: 48px;
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #FFF2E7;
+margin-bottom: 16px;
+}
+
+
+.p-1{
+font-family: 'Sarala';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+color: #ECD6C4;
+padding-bottom: 48px;
+}
+
+
+.rodape{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 30px;
+}
+
+.img-footer{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
